@@ -1,7 +1,43 @@
-<footer class="site-footer">
+<footer class="site-footer page-color-section">
 
-  <div class="wrapper">
+  <div class="wrapper container">
+      <div class="row">
+        <div class="col-md-1 hidden-sm-down">
+          <a class="footer-link" href="/"><img class="footer-logo" src="/img/footer-logo.svg" alt="Institut Québécois de Médecine Fonctionnelle" /></a>
+        </div>
+        <div class="col-md-3">
+    {% for path in page_paths %}
+      {% assign my_page = site.pages | where: "path", path | first %}
+      {% if my_page.nav-name %}
+      <a class="footer-link" href="{{ my_page.url | relative_url }}">{{ my_page.nav-name | escape }}</a>
+      {% endif %}
+    {% endfor %}
+  </div>
+  <div class="col-md-3">
+<a class="footer-link" href="">Contactez-nous</a>
+<a class="footer-link" href="">Suivez-nous sur Facebook</a>
+</div>
+<div class="col-md-5 col-sm-11">
+  <!-- Begin MailChimp Signup Form -->
+	<label for="mce-EMAIL">Inscrivez-vous à notre infolettre</label>
+<form class="form-inline" action="//sebastienbeauchamp.us5.list-manage.com/subscribe/post?u=2a93a1fe7b356363d43854909&amp;id=3a352c1da3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div class="form-group" id="mc_embed_signup_scroll">
+	<input class="form-control mail-input" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+      <input type="text" name="b_2a93a1fe7b356363d43854909_3a352c1da3" tabindex="-1" value="">
+    </div>
+  </div>
+    <input type="submit" value="Je m'inscris" name="subscribe" id="mc-embedded-subscribe" class="btn btn-secondary btn-rounded">
+</form>
+</div>
 
+<!--End mc_embed_signup-->
+</div>
+
+  </div>
+
+<!--
     <h2 class="footer-heading">{{ site.title | escape }}</h2>
 
     <div class="footer-col-wrapper">
@@ -39,7 +75,7 @@
       <div class="footer-col footer-col-3">
         <p>{{ site.description | escape }}</p>
       </div>
-    </div>
+    </div> -->
 
   </div>
 

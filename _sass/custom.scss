@@ -1,6 +1,12 @@
 @charset "utf-8";
 
 // Define defaults for each variable.
+
+.main-logo{
+  float: right;
+  width: 100px;
+}
+
 h1{
   font-family: HKGrotesk-Bold;
   font-size: 72px;
@@ -27,14 +33,22 @@ h2{
   }
 }
 
-.page-top-section, .page-section{
+.page-top-section,
+{
+    position: relative;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+    min-height: 700px;
+}
+
+.page-section{
     position: relative;
     padding-bottom: 80px;
     margin-bottom: 80px;
 }
 
 .page-top-section h1{
-  margin-bottom: 60px;
+  margin: 0px 0px 80px;
 }
 
 .page-color-section{
@@ -51,7 +65,7 @@ h2{
   z-index: -100;
   width:75%;
   right:0px;
-  bottom:0px;
+  top:160px;
 }
 
 span.section-intro{
@@ -102,5 +116,32 @@ ol{
     margin-right: 48px;
     text-align: right;
     direction: rtl;
+  }
+}
+
+a.footer-link{
+    display: block;
+    color:$gray-dark;
+    margin-bottom: 8px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.footer-logo{
+  width: 100%;
+}
+
+.mail-input{
+  border-radius: 100px;
+  background-color: transparent;
+}
+
+footer{
+   .btn{
+  line-height: inherit;
+  }
+  input.form-control:focus{
+    border-color: $secondary;
+    background-color: transparent;
   }
 }
