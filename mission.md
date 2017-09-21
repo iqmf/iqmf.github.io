@@ -8,7 +8,7 @@ permalink: /mission/
 <div class="page-top-section container">
   <div class=" row">
 
-  <div class="col-md-7">
+  <div class="col-lg-7">
     <h1>{{ page.title | escape }}</h1>
 
   </div>
@@ -19,8 +19,8 @@ permalink: /mission/
 <div class="page-section">
   <div class="container">
     <div class=" row">
-      <div class="col-md-7">
-      <ul>
+      <div class="col-lg-6 push-lg-3">
+      <ol>
       <li>
       Rendre accessible une formation en médecine fonctionnelle de la plus haute qualité aux professionnels de la santé du Québec, et en langue française.
       </li>
@@ -51,7 +51,7 @@ permalink: /mission/
       <li>
     Développer des outils et des compétences avec la prévention primaire et secondaire avec la diète, les habitudes de vie, les nutriments et phytonutriments, et la gestion du stress/émotions.
       </li>
-      </ul>
+      </ol>
     </div>
   </div>
 </div>

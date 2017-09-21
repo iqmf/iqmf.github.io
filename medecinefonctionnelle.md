@@ -6,16 +6,16 @@ permalink: /medecinefonctionelle/
 ---
 <div class="page-top-section container">
   <div class=" row">
-
-    <div class="col-md-7">
-      <h1>Qu’est-ce que la médecine fonctionnelle ?</h1>
+    <div class="col-lg-7" >
+        <h1>Qu’est-ce que la médecine fonctionnelle ?</h1>
     </div>
-    <img class="img-background" src="/img/medecine-fonctionnelle.jpg"/>
-  </div>
+    <div class="col-lg-4 push-lg-1">
+      <img class="img-fluid" src="/img/medecine-fonctionnelle.jpg"/>
+    </div>
+</div>
 </div>
 
-<div class="page-section">
-  <div class="container">
+  <div class="container page-section border-section">
     <div class=" row">
       <div class="col-md-6">
         <span class="section-intro">Définition — </span>
@@ -38,10 +38,8 @@ permalink: /medecinefonctionelle/
       </div>
     </div>
   </div>
-</div>
 
-<div class="page-section">
-  <div class="container">
+  <div class="container page-section border-section">
     <div class=" row">
       <div class="col-md-6">
         <span class="section-intro">Les 5 principes de la médecine fonctionnelle <sup>5</sup> — </span>
@@ -70,11 +68,9 @@ permalink: /medecinefonctionelle/
         </ol>
       </div>
     </div>
-  </div>
 </div>
 
-<div class="page-section">
-  <div class="container">
+  <div class="container page-section">
     <div class="row">
       <div class="col-md-8">
         <span class="section-intro">Ailleurs dans le monde — </span>
@@ -88,4 +84,3 @@ permalink: /medecinefonctionelle/
       </div>
     </div>
   </div>
-</div>
