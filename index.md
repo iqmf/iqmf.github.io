@@ -41,7 +41,7 @@ permalink: /
 <div class="page-section">
   <div class="container">
     <div class=" row justify-content-center">
-      <div class="text-center col-lg-8">
+      <div class="text-center col-lg-9">
         <span class="section-intro">Qu’est-ce que la médecine fonctionnelle ?<br/>—</span>
         <h2>La médecine fonctionnelle met l’accent sur les interactions entre l’environnement et les différents systèmes tels que le système digestif, endocrinien et immunitaire.</h2>
         <a class="btn btn-rounded btn-outline-secondary" href="/medecinefonctionelle/">En savoir plus</a>

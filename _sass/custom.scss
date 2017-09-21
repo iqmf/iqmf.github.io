@@ -1,7 +1,10 @@
 @charset "utf-8";
 
 // Define defaults for each variable.
+body{
+  font-family: 'HKGrotesk', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 
+}
 .main-logo{
   width: 100px;
   position: absolute ;
@@ -10,11 +13,11 @@
 }
 
 h1{
-  font-family: HKGrotesk-Bold, sans-serif;
   font-size: 72px;
   color: $secondary;
   letter-spacing: 0;
   line-height: 72px;
+  font-weight: bold;
 
   @include media-query($on-palm){
     font-size: 32px;
@@ -23,7 +26,6 @@ h1{
 }
 
 h2{
-  font-family: HKGrotesk-Bold, sans-serif;
   font-size: 28px;
   color: $brand-color;
   letter-spacing: 0;
