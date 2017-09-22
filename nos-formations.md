@@ -39,10 +39,10 @@ permalink: /formation/
           14-15 avril 2018
         </p>
         <!-- Button trigger modal -->
-        <a class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#Module01">
+        <a href="#" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#Module01">
           Plus de détails
         </a>
-        <a class="btn btn-primary btn-sm" href="#">Je m'inscris</a>
+        <a href="#" class="btn btn-primary btn-sm" href="#">Je m'inscris</a>
       </div>
 
       <div class="module-section">
@@ -52,10 +52,10 @@ permalink: /formation/
           19-20 mai 2018
         </p>
         <!-- Button trigger modal -->
-        <a class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#Module02">
+        <a href="#" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#Module02">
           Plus de détails
         </a>
-        <a class="btn btn-primary btn-sm" href="#">Je m'inscris</a>
+        <a href="#" class="btn btn-primary btn-sm" href="#">Je m'inscris</a>
       </div>
 
       <div class="module-section">
@@ -65,10 +65,10 @@ permalink: /formation/
           20-21 octobre 2018
         </p>
         <!-- Button trigger modal -->
-        <a class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#Module03">
+        <a href="#" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#Module03">
           Plus de détails
         </a>
-        <a class="btn btn-primary btn-sm" href="#">Je m'inscris</a>
+        <a href="#" class="btn btn-primary btn-sm" href="#">Je m'inscris</a>
       </div>
 
       <div class="module-section">
@@ -79,10 +79,10 @@ permalink: /formation/
         </p>
 
       <!-- Button trigger modal -->
-      <a class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#Module04">
+      <a href="#" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#Module04">
         Plus de détails
       </a>
-      <a class="btn btn-primary btn-sm" href="#">Je m'inscris</a>
+      <a href="#" class="btn btn-primary btn-sm" href="#">Je m'inscris</a>
     </div>
 
   </div>
