@@ -4,14 +4,17 @@ title: Notre formation sur la médecine fonctionnelle
 nav-name: Nos formations
 permalink: /formation/
 ---
-<div class="page-top-section container">
+
+
+
+<div class="page-section container">
   <div class=" row">
     <div class="col-lg-7" >
       <h1>{{ page.title | escape }}</h1>
 </div>
 </div>
 <div class=" row">
-  <div class="col-lg-7" >
+  <div class="col-lg-7 mb-5" >
       <img class="img-fluid img-formation" src="/img/formation.jpg"/>
 
       <h2>Qui est éligible ?</h2>
@@ -27,8 +30,11 @@ permalink: /formation/
         </li>
       </ul>
       <p>
-        Les praticiens qui ne répondent pas aux critères d'admissibilité ci-dessus peuvent cependant formuler une demande. Les candidatures  sont évaluées au cas par cas selon le niveau du programme de leur précédente la formation, et l'expérience clinique. Écrivez à iqmfinfo@gmail.com.
+        Les praticiens qui ne répondent pas aux critères d'admissibilité ci-dessus peuvent cependant <a href="mailto:iqmfinfo@gmail.com">formuler une demande en nous écrivant</a>. Les candidatures  sont évaluées au cas par cas selon le niveau du programme de leur précédente la formation, et l'expérience clinique.
       </p>
+        <a class="btn btn-rounded btn-primary btn-lg" target="_blank" href="https://www.eventbrite.ca/e/billets-certification-en-medecine-fonctionnelle-38152744887">
+              Je m'inscris
+      </a>
     </div>
 
     <div class="col-lg-4 push-lg-1">
@@ -39,10 +45,9 @@ permalink: /formation/
           14-15 avril 2018
         </p>
         <!-- Button trigger modal -->
-        <a href="#" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#Module01">
+        <a href="#" class="btn btn-outline-secondary btn-rounded btn-sm" data-toggle="modal" data-target="#Module01">
           Plus de détails
         </a>
-        <a href="#" class="btn btn-primary btn-sm" href="#">Je m'inscris</a>
       </div>
 
       <div class="module-section">
@@ -52,10 +57,9 @@ permalink: /formation/
           19-20 mai 2018
         </p>
         <!-- Button trigger modal -->
-        <a href="#" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#Module02">
+        <a href="#" class="btn btn-outline-secondary btn-rounded btn-sm" data-toggle="modal" data-target="#Module02">
           Plus de détails
         </a>
-        <a href="#" class="btn btn-primary btn-sm" href="#">Je m'inscris</a>
       </div>
 
       <div class="module-section">
@@ -65,10 +69,9 @@ permalink: /formation/
           20-21 octobre 2018
         </p>
         <!-- Button trigger modal -->
-        <a href="#" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#Module03">
+        <a href="#" class="btn btn-outline-secondary btn-rounded btn-sm" data-toggle="modal" data-target="#Module03">
           Plus de détails
         </a>
-        <a href="#" class="btn btn-primary btn-sm" href="#">Je m'inscris</a>
       </div>
 
       <div class="module-section">
@@ -79,17 +82,18 @@ permalink: /formation/
         </p>
 
       <!-- Button trigger modal -->
-      <a href="#" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#Module04">
+      <a href="#" class="btn btn-outline-secondary btn-rounded btn-sm" data-toggle="modal" data-target="#Module04">
         Plus de détails
       </a>
-      <a href="#" class="btn btn-primary btn-sm" href="#">Je m'inscris</a>
     </div>
 
   </div>
   </div>
   </div>
 
-
+  <a class="inscription-bar" target="_blank" href="https://www.eventbrite.ca/e/billets-certification-en-medecine-fonctionnelle-38152744887">
+          Je m'inscris à la formation
+  </a>
 
   <!-- Modal Module 01-->
   <div class="modal fade" id="Module01" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

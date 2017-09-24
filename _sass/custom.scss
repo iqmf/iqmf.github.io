@@ -8,8 +8,8 @@ body{
 .main-logo{
   width: 100px;
   position: absolute ;
-  right: 0px;
-  top:20px;
+  right: 20px;
+  top:12px;
 }
 
 h1{
@@ -18,6 +18,7 @@ h1{
   letter-spacing: 0;
   line-height: 72px;
   font-weight: bold;
+  margin-bottom: 40px;
 
   @include media-query($on-palm){
     font-size: 32px;
@@ -37,16 +38,37 @@ h2{
   }
 }
 
+button.nav{
+    small{
+      font-weight: bold;
+    }
+}
+button.nav:hover{
+    cursor: pointer;
+    text-decoration: none;
+    opacity: 0.5;
+}
+a.nav{
+  margin-bottom: 12px;
+  line-height: 1
+}
+
+a.nav:hover{
+  text-decoration: none;
+  color:$secondary;
+}
+
+.page-section{
+    position: relative;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+    @include media-query($on-palm){
+      margin-top: 0px;
+    }
+}
+
 .page-top-section,
 {
-    position: relative;
-    margin-bottom: 80px;
-    margin-top: 80px;
-
-    h1{
-      margin: 0px 0px 40px;
-    }
-
     h2{
     margin-bottom: 40px;
     }
@@ -56,19 +78,17 @@ h2{
     }
   }
 
-.page-section{
-    position: relative;
-    padding-bottom: 80px;
-    margin-bottom: 80px;
-}
-
 .image-section{
     margin-bottom: 80px;
 }
 
 .img-formation{
   margin-top: 0px !important;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
+
+  // @include media-query($on-palm){
+  //   margin-bottom: 40px;
+  // }
 }
 
 .page-color-section{
@@ -159,7 +179,21 @@ ol{
 
 }
 
-a.footer-link{
+.inscription-bar{
+  background-color: $white;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  -webkit-box-shadow: 0px -4px 24px 0px rgba(0,0,0,0.1);
+-moz-box-shadow: 0px -4px 24px 0px rgba(0,0,0,0.1);
+box-shadow: 0px -4px 24px 0px rgba(0,0,0,0.1);
+text-align: center;
+z-index: 100;
+}
+
+a.footer-link, label.footer-newsletter{
     display: block;
     color:$gray-dark;
     margin-bottom: 8px;
@@ -183,5 +217,8 @@ footer{
   input.form-control:focus{
     border-color: $secondary;
     background-color: transparent;
+  }
+  .submit{
+    padding: 0.5em 0.75em
   }
 }

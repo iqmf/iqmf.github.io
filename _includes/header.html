@@ -1,5 +1,4 @@
-<header class="site-header" role="banner">
-  <div class="container">
+<header class="navbar navbar-light">
     <div class="row">
       {% assign default_paths = site.pages | map: "path" %}
       {% assign page_paths = site.header_pages | default: default_paths %}
@@ -15,17 +14,16 @@
         </div>
       </div>
     </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <nav class="navbar navbar-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+
+      <nav>
+        <button class="btn btn-link text-primary pl-0 nav" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <img class="mr-2" src="/img/icons/menu.svg"/> <small>Menu</small>
         </button>
+        <a class="navbar-brand" href="/">
+        <img class="main-logo hidden-sm-down" src="/img/logo.svg" alt="Institut Québécois de Médecine Fonctionnelle">
+          <img class="main-logo hidden-md-up" src="/img/logo-mobile.svg" alt="Institut Québécois de Médecine Fonctionnelle">
+        </a>
+
       </nav>
-      <a class="" href="/">
-        <img class="main-logo" src="/img/logo.svg" alt="Institut Québécois de Médecine Fonctionnelle">
-      </a>
-    </div>
-  </div>
+
 </header>

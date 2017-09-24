@@ -8,7 +8,7 @@ nav-name: Accueil
 permalink: /
 ---
 
-<div class="page-top-section container">
+<div class="page-top-section page-section container">
   <div class=" row">
 
   <div class="col-lg-7" >
