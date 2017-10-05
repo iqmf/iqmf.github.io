@@ -13,7 +13,7 @@ permalink: /
 
   <div class="col-lg-7" >
     <h1>Une approche complémentaire et alternative</h1>
-    <h2>L’IMFQ propose d'approfondir et  d'élargir les connaissances des professionnels de la santé sur les principes et la pratique de la médecine fonctionnelle en offrant une formation continue en français.</h2>
+    <h2>L’IMFQ propose d'approfondir et  d'élargir les connaissances des professionnels de la santé sur les principes et la pratique de la médecine fonctionnelle en offrant de la formation continue en français.</h2>
     <a class="btn btn-rounded btn-secondary" href="mission">Lire notre mission</a>
   </div>
   <div class="col-lg-4 push-lg-1"><img class="img-fluid" src="/img/accueil.png"/></div>
