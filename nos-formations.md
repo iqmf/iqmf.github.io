@@ -78,7 +78,7 @@ permalink: /formation/
         <span class="section-intro">Module 04 — </span>
         <h2>Musculo-squelettique, alimentation et nutrition clinique</h2>
         <p>
-          17-18 novembre 2018
+          24-25 novembre 2018
         </p>
 
       <!-- Button trigger modal -->
