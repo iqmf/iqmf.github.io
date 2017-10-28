@@ -1,7 +1,8 @@
 ---
 layout: page
-nav-name: Mission
+nav-name: Notre mission
 title: Mission de l’Institut Québécois de Médecine Fonctionnelle
+excerpt: Nous valorisons les soins de santé holistique
 permalink: /mission/
 ---
 

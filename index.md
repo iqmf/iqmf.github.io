@@ -3,7 +3,8 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: page
-title: IQMF • Institut Québécois de Médecine Fonctionnelle
+title: Institut Québécois de Médecine Fonctionnelle • IQMF
+excerpt: IQMF propose une formation continue en français sur la médecine fonctionnelle qui est une approche complementaire et alternative.
 nav-name: Accueil
 permalink: /
 ---
@@ -13,7 +14,7 @@ permalink: /
 
   <div class="col-lg-7" >
     <h1>Une approche complémentaire et alternative</h1>
-    <h2>L’IMFQ propose d'approfondir et  d'élargir les connaissances des professionnels de la santé sur les principes et la pratique de la médecine fonctionnelle en offrant de la formation continue en français.</h2>
+    <h2>L’IMFQ propose d'approfondir et d'élargir les connaissances des professionnels de la santé sur les principes et la pratique de la médecine fonctionnelle en offrant de la formation continue en français.</h2>
     <a class="btn btn-rounded btn-secondary" href="mission">Lire notre mission</a>
   </div>
   <div class="col-lg-4 push-lg-1"><img class="img-fluid" src="/img/accueil.png"/></div>

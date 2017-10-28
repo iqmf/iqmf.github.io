@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Qu'est-ce que la médecine fonctionnelle ?
+excerpt: Une approche complementaire et alternative qui vise l’amélioration de l’état de santé du patient.
 nav-name: La médecine fonctionnelle
 permalink: /medecinefonctionelle/
 ---

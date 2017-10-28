@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Notre formation sur la médecine fonctionnelle
-nav-name: Nos formations
+excerpt: Une formation sur la médecine fonctionnelle de la plus haute qualité aux professionnels de la santé
+nav-name: Notre formation
 permalink: /formation/
 ---
 
