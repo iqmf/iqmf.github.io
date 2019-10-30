@@ -37,4 +37,6 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+include: ['.htaccess']
+
 google_analytics: UA-108387506-1

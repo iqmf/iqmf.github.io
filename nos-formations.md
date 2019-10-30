@@ -1,27 +1,15 @@
 ---
 layout: page
-title: Notre formation sur la médecine fonctionnelle
-excerpt: Une formation sur la médecine fonctionnelle de la plus haute qualité aux professionnels de la santé
+title: Désolé
+excerpt: Si vous êtes professionnels de la santé et avez un intérêt pour de la formation continue sur l’approche fonctionnelle en santé, nous vous suggérons de visiter le site de l'institut de neurologie fonctionnelle
 nav-name: Notre formation
 permalink: /formation/
 ---
-
-
-
-<div class="page-section container">
+<div class="page-top-section container">
   <div class=" row">
-    <div class="col-lg-7" >
-      <h1>{{ page.title | escape }}</h1>
-      </div>
-    </div>
-<div class=" row">
-  <div class="col-lg-7 mb-5" >
-      <img class="img-fluid img-formation" src="/img/formation.jpg"/>
+  <div class="col-lg-7">
+<h1>Désolé ce site est fermée.</h1>
+<p> Si vous êtes professionnels de la santé et avez un intérêt pour de la formation continue sur l’approche fonctionnelle en santé, nous vous suggérons de <a href="https://neurologiefonctionnelle.org">visiter le site de l'institut de neurologie fonctionnelle</a></p>
 
-      <h2>Formations à venir... </h2>
-      <p>
-Si vous êtes intéressé par l'approche fonctionnelle, une formation est offerte par <a href="http://neurologiefonctionnelle.org" target="blank">l'Institut de Neurologie Fonctionnelle.</a>     
- </p>
- </div>
- </div>  
-  </div>
+</div>
+</div>
